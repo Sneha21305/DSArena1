@@ -1,0 +1,1010 @@
+{
+  "Array": [
+    {
+      "question": "What is the time complexity of inserting at the end of an array?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(1)"
+    },
+    {
+      "question": "Which of the following allows dynamic resizing in Java?",
+      "options": [
+        "Array",
+        "ArrayList",
+        "LinkedList",
+        "Set"
+      ],
+      "answer": "ArrayList"
+    },
+    {
+      "question": "Array Question 3",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 6",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 7",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 8",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 9",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 10",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 11",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 12",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 13",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 14",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 15",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 16",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 17",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 18",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 19",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 20",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 21",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 22",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 23",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 24",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Array Question 25",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    }
+  ],
+  "BST": [
+    {
+      "question": "What is the time complexity of searching in a balanced BST?",
+      "options": [
+        "O(log n)",
+        "O(n)",
+        "O(1)",
+        "O(n log n)"
+      ],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "In BST, the left child is always ___ than the parent.",
+      "options": [
+        "smaller",
+        "larger",
+        "equal",
+        "greater"
+      ],
+      "answer": "smaller"
+    },
+    {
+      "question": "BST Question 3",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 6",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 7",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 8",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 9",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 10",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 11",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 12",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 13",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 14",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 15",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 16",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 17",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 18",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 19",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 20",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 21",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 22",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 23",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 24",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "BST Question 25",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    }
+  ],
+  "String": [
+    {
+      "question": "Which method is used to find the length of a string in Java?",
+      "options": [
+        "length()",
+        "size()",
+        "getSize()",
+        "count()"
+      ],
+      "answer": "length()"
+    },
+    {
+      "question": "What is the output of \"abc\".substring(1, 3)?",
+      "options": [
+        "ab",
+        "bc",
+        "abc",
+        "a"
+      ],
+      "answer": "bc"
+    },
+    {
+      "question": "String Question 3",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 6",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 7",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 8",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 9",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 10",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 11",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 12",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 13",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 14",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 15",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 16",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 17",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 18",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 19",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 20",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 21",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 22",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 23",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 24",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "String Question 25",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    }
+  ],
+  "LinkedList": [
+    {
+      "question": "What is the time complexity to insert at the head of a linked list?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(1)"
+    },
+    {
+      "question": "Which pointer is used in a doubly linked list?",
+      "options": [
+        "prev and next",
+        "left and right",
+        "top and bottom",
+        "front and rear"
+      ],
+      "answer": "prev and next"
+    },
+    {
+      "question": "Linked List Question 3",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 4",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 5",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 6",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 7",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 8",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 9",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 10",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 11",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 12",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 13",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 14",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 15",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 16",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 17",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 18",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 19",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 20",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 21",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 22",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 23",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 24",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "question": "Linked List Question 25",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    }
+  ]
+}
