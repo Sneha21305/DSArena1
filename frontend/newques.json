@@ -1,0 +1,1010 @@
+{
+  "Array": [
+    {
+      "question": "What is the  Advantage of arrays",
+      "options": [
+        "0",
+        "",
+        "-1",
+        "Depends"
+      ],
+      "answer": "0"
+    },
+    {
+      "question": "What is the time complexity to access an element by index in an array?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(1)"
+    },
+    {
+      "question": "Which Java class allows dynamic resizing like an array?",
+      "options": [
+        "Array",
+        "ArrayList",
+        "LinkedList",
+        "Set"
+      ],
+      "answer": "ArrayList"
+    },
+    {
+      "question": "What exception occurs if you access an invalid index in an array?",
+      "options": [
+        "NullPointerException",
+        "ArrayIndexOutOfBoundsException",
+        "ClassCastException",
+        "ArithmeticException"
+      ],
+      "answer": "ArrayIndexOutOfBoundsException"
+    },
+    {
+      "question": "Which data structure uses contiguous memory allocation?",
+      "options": [
+        "Array",
+        "Linked List",
+        "Binary Tree",
+        "Graph"
+      ],
+      "answer": "Array"
+    },
+    {
+      "question": "What is the default value of an int array in Java?",
+      "options": [
+        "0",
+        "null",
+        "undefined",
+        "-1"
+      ],
+      "answer": "0"
+    },
+    {
+      "question": "Which method is used to sort arrays in Java?",
+      "options": [
+        "Arrays.sort()",
+        "sort()",
+        "Collections.sort()",
+        "arraySort()"
+      ],
+      "answer": "Arrays.sort()"
+    },
+    {
+      "question": "What does `arr.length` return?",
+      "options": [
+        "Size of array",
+        "Last index",
+        "Array elements",
+        "Memory size"
+      ],
+      "answer": "Size of array"
+    },
+    {
+      "question": "Which of these is not a valid array declaration in Java?",
+      "options": [
+        "int[] a \u003d new int[5];",
+        "int a[] \u003d {1,2};",
+        "int a(5);",
+        "int[] a \u003d {1,2};"
+      ],
+      "answer": "int a(5);"
+    },
+    {
+      "question": "Which operation is fastest in arrays?",
+      "options": [
+        "Access",
+        "Insertion",
+        "Deletion",
+        "Search"
+      ],
+      "answer": "Access"
+    },
+    {
+      "question": "What is the time complexity to insert an element at the end of an array (without resizing)?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(1)"
+    },
+    {
+      "question": "Arrays in Java are:",
+      "options": [
+        "Immutable",
+        "Mutable",
+        "Abstract",
+        "Dynamic"
+      ],
+      "answer": "Mutable"
+    },
+    {
+      "question": "What is the output of accessing an array index out of bounds?",
+      "options": [
+        "null",
+        "ArrayIndexOutOfBoundsException",
+        "0",
+        "Undefined"
+      ],
+      "answer": "ArrayIndexOutOfBoundsException"
+    },
+    {
+      "question": "What is the time complexity of searching for an element in an unsorted array?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(1)",
+        "O(n log n)"
+      ],
+      "answer": "O(n)"
+    },
+    {
+      "question": "How can you declare a 2D array in Java?",
+      "options": [
+        "int[][] arr;",
+        "int[2] arr;",
+        "int arr[];",
+        "int[] arr[];"
+      ],
+      "answer": "int[][] arr;"
+    },
+    {
+      "question": "What is the size of an array declared as `int[] arr \u003d new int[10];`?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "Undefined"
+      ],
+      "answer": "10"
+    },
+    {
+      "question": "What keyword is used to get the length of an array in Java?",
+      "options": [
+        "length",
+        "size()",
+        "getLength()",
+        "length()"
+      ],
+      "answer": "length"
+    },
+    {
+      "question": "Arrays are stored in which part of memory in Java?",
+      "options": [
+        "Heap",
+        "Stack",
+        "Code segment",
+        "Register"
+      ],
+      "answer": "Heap"
+    },
+    {
+      "question": "Can arrays in Java store different data types?",
+      "options": [
+        "Yes",
+        "No",
+        "Only primitive types",
+        "Only objects"
+      ],
+      "answer": "No"
+    },
+    {
+      "question": "Which of these is NOT a feature of arrays?",
+      "options": [
+        "Fixed size",
+        "Random access",
+        "Efficient insertion in the middle",
+        "Contiguous memory"
+      ],
+      "answer": "Efficient insertion in the middle"
+    },
+    {
+      "question": "Which of these methods can be used to copy arrays in Java?",
+      "options": [
+        "System.arraycopy()",
+        "Arrays.copyOf()",
+        "Manual loop",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the index of the last element in an array of size n?",
+      "options": [
+        "n",
+        "n-1",
+        "1",
+        "0"
+      ],
+      "answer": "n-1"
+    },
+    {
+      "question": "What is the default value of boolean array elements in Java?",
+      "options": [
+        "true",
+        "false",
+        "null",
+        "undefined"
+      ],
+      "answer": "false"
+    },
+    {
+      "question": "What will happen if you assign an array to another array reference?",
+      "options": [
+        "Both refer to same array",
+        "Copies values",
+        "Compile error",
+        "Runtime error"
+      ],
+      "answer": "Both refer to same array"
+    },
+    {
+      "question": "Which of these is a disadvantage of arrays?",
+      "options": [
+        "Fixed size",
+        "Random access",
+        "Easy to traverse",
+        "Contiguous memory"
+      ],
+      "answer": "Fixed size"
+    }
+  ],
+  "BST": [
+    {
+      "question": "What property does a binary search tree maintain?",
+      "options": [
+        "Left child \u003c parent \u003c right child",
+        "Left child \u003e parent \u003e right child",
+        "No order",
+        "Random order"
+      ],
+      "answer": "Left child \u003c parent \u003c right child"
+    },
+    {
+      "question": "What is the time complexity of search in a balanced BST?",
+      "options": [
+        "O(log n)",
+        "O(n)",
+        "O(1)",
+        "O(n log n)"
+      ],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "Which traversal of BST results in sorted order?",
+      "options": [
+        "Inorder",
+        "Preorder",
+        "Postorder",
+        "Level order"
+      ],
+      "answer": "Inorder"
+    },
+    {
+      "question": "What is the time complexity to insert in BST?",
+      "options": [
+        "O(log n)",
+        "O(n)",
+        "O(1)",
+        "O(n log n)"
+      ],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "Which is the minimum element in a BST?",
+      "options": [
+        "Leftmost node",
+        "Rightmost node",
+        "Root node",
+        "Leaf node"
+      ],
+      "answer": "Leftmost node"
+    },
+    {
+      "question": "What is the maximum number of children a node can have in a BST?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "Unlimited"
+      ],
+      "answer": "2"
+    },
+    {
+      "question": "Which traversal visits root node first?",
+      "options": [
+        "Preorder",
+        "Inorder",
+        "Postorder",
+        "Level order"
+      ],
+      "answer": "Preorder"
+    },
+    {
+      "question": "What is the height of a tree with a single node?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Depends"
+      ],
+      "answer": "0"
+    },
+    {
+      "question": "Which of these is NOT a type of BST?",
+      "options": [
+        "AVL tree",
+        "Red-black tree",
+        "Splay tree",
+        "Heap"
+      ],
+      "answer": "Heap"
+    },
+    {
+      "question": "Which operation in BST has worst-case time complexity O(n)?",
+      "options": [
+        "Search",
+        "Insert",
+        "Delete",
+        "All"
+      ],
+      "answer": "All"
+    },
+    {
+      "question": "In a BST, where are elements smaller than root located?",
+      "options": [
+        "Left subtree",
+        "Right subtree",
+        "Both subtrees",
+        "None"
+      ],
+      "answer": "Left subtree"
+    },
+    {
+      "question": "What is the inorder predecessor of a node in BST?",
+      "options": [
+        "Maximum in left subtree",
+        "Minimum in right subtree",
+        "Parent node",
+        "Sibling node"
+      ],
+      "answer": "Maximum in left subtree"
+    },
+    {
+      "question": "What happens when you delete a node with two children in BST?",
+      "options": [
+        "Replace with inorder predecessor or successor",
+        "Delete directly",
+        "Replace with root",
+        "Error"
+      ],
+      "answer": "Replace with inorder predecessor or successor"
+    },
+    {
+      "question": "Which traversal visits nodes level by level?",
+      "options": [
+        "Level order",
+        "Inorder",
+        "Preorder",
+        "Postorder"
+      ],
+      "answer": "Level order"
+    },
+    {
+      "question": "What is the best case height of a BST with n nodes?",
+      "options": [
+        "log n",
+        "n",
+        "1",
+        "n log n"
+      ],
+      "answer": "log n"
+    },
+    {
+      "question": "What is the worst case height of a BST?",
+      "options": [
+        "n",
+        "log n",
+        "1",
+        "n log n"
+      ],
+      "answer": "n"
+    },
+    {
+      "question": "Which of these balances a BST automatically?",
+      "options": [
+        "AVL tree",
+        "Binary tree",
+        "Linked list",
+        "Heap"
+      ],
+      "answer": "AVL tree"
+    },
+    {
+      "question": "Which of the following is NOT a BST property?",
+      "options": [
+        "Left subtree has smaller keys",
+        "Right subtree has larger keys",
+        "No duplicate keys",
+        "All keys are unique"
+      ],
+      "answer": "No duplicate keys"
+    },
+    {
+      "question": "Which traversal method can be used to clone a BST?",
+      "options": [
+        "Preorder",
+        "Inorder",
+        "Postorder",
+        "Level order"
+      ],
+      "answer": "Preorder"
+    },
+    {
+      "question": "What data structure can be used to implement BST traversal iteratively?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Array"
+      ],
+      "answer": "Stack"
+    },
+    {
+      "question": "What is the time complexity to find the minimum element in BST?",
+      "options": [
+        "O(log n)",
+        "O(n)",
+        "O(1)",
+        "O(n log n)"
+      ],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "Which algorithm can balance a BST?",
+      "options": [
+        "AVL rotation",
+        "Binary search",
+        "Merge sort",
+        "Quick sort"
+      ],
+      "answer": "AVL rotation"
+    },
+    {
+      "question": "How many children can a node have in a BST?",
+      "options": [
+        "0, 1 or 2",
+        "Exactly 2",
+        "1 or 2 only",
+        "Any number"
+      ],
+      "answer": "0, 1 or 2"
+    },
+    {
+      "question": "Which of these is a leaf node?",
+      "options": [
+        "Node with no children",
+        "Node with two children",
+        "Root node",
+        "Node with one child"
+      ],
+      "answer": "Node with no children"
+    },
+    {
+      "question": "What happens if you insert duplicate keys in BST?",
+      "options": [
+        "Usually ignored or placed on right subtree",
+        "Replace existing node",
+        "Create error",
+        "Allowed anywhere"
+      ],
+      "answer": "Usually ignored or placed on right subtree"
+    }
+  ],
+  "String": [
+    {
+      "question": "Which class in Java represents strings?",
+      "options": [
+        "String",
+        "StringBuilder",
+        "StringBuffer",
+        "All of the above"
+      ],
+      "answer": "String"
+    },
+    {
+      "question": "Strings in Java are:",
+      "options": [
+        "Immutable",
+        "Mutable",
+        "Abstract",
+        "Dynamic"
+      ],
+      "answer": "Immutable"
+    },
+    {
+      "question": "What is the output of \"hello\".charAt(1)?",
+      "options": [
+        "e",
+        "h",
+        "l",
+        "o"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "Which method is used to compare two strings ignoring case?",
+      "options": [
+        "equalsIgnoreCase()",
+        "compare()",
+        "equals()",
+        "compareTo()"
+      ],
+      "answer": "equalsIgnoreCase()"
+    },
+    {
+      "question": "Which of these is NOT a string method?",
+      "options": [
+        "substring()",
+        "length()",
+        "append()",
+        "charAt()"
+      ],
+      "answer": "append()"
+    },
+    {
+      "question": "What does the `length()` method of String return?",
+      "options": [
+        "Number of characters",
+        "Size in bytes",
+        "Memory size",
+        "Array size"
+      ],
+      "answer": "Number of characters"
+    },
+    {
+      "question": "What is the result of \"abc\" + \"def\"?",
+      "options": [
+        "\"abcdef\"",
+        "\"abc def\"",
+        "\"abc+def\"",
+        "Compile error"
+      ],
+      "answer": "\"abcdef\""
+    },
+    {
+      "question": "Which method converts a string to uppercase?",
+      "options": [
+        "toUpperCase()",
+        "toUpper()",
+        "uppercase()",
+        "convertUpper()"
+      ],
+      "answer": "toUpperCase()"
+    },
+    {
+      "question": "How can you get a substring from index 2 to 5?",
+      "options": [
+        "substring(2,5)",
+        "substr(2,5)",
+        "substring(2,6)",
+        "sub(2,5)"
+      ],
+      "answer": "substring(2,5)"
+    },
+    {
+      "question": "What is the index of the first character in a string?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Depends"
+      ],
+      "answer": "0"
+    },
+    {
+      "question": "Which operator concatenates two strings in Java?",
+      "options": [
+        "+",
+        "\u0026",
+        "concat()",
+        "."
+      ],
+      "answer": "+"
+    },
+    {
+      "question": "What is the return type of the `indexOf()` method?",
+      "options": [
+        "int",
+        "String",
+        "boolean",
+        "char"
+      ],
+      "answer": "int"
+    },
+    {
+      "question": "Which string method removes leading and trailing spaces?",
+      "options": [
+        "trim()",
+        "strip()",
+        "removeSpaces()",
+        "stripLeadingTrailing()"
+      ],
+      "answer": "trim()"
+    },
+    {
+      "question": "What will \"hello\".equals(\"Hello\") return?",
+      "options": [
+        "false",
+        "true",
+        "Exception",
+        "null"
+      ],
+      "answer": "false"
+    },
+    {
+      "question": "What is the time complexity to access a character at an index in String?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(1)"
+    },
+    {
+      "question": "Which string class is thread-safe in Java?",
+      "options": [
+        "StringBuffer",
+        "StringBuilder",
+        "String",
+        "None"
+      ],
+      "answer": "StringBuffer"
+    },
+    {
+      "question": "What does `toCharArray()` method do?",
+      "options": [
+        "Converts string to char array",
+        "Converts char array to string",
+        "Returns string length",
+        "Returns substring"
+      ],
+      "answer": "Converts string to char array"
+    },
+    {
+      "question": "Which method checks if a string starts with a particular prefix?",
+      "options": [
+        "startsWith()",
+        "beginsWith()",
+        "prefix()",
+        "start()"
+      ],
+      "answer": "startsWith()"
+    },
+    {
+      "question": "What will \"Java\".substring(1,3) return?",
+      "options": [
+        "\"av\"",
+        "\"Ja\"",
+        "\"va\"",
+        "\"a\""
+      ],
+      "answer": "\"av\""
+    },
+    {
+      "question": "Which method converts a string to lowercase?",
+      "options": [
+        "toLowerCase()",
+        "toLower()",
+        "lowercase()",
+        "convertLower()"
+      ],
+      "answer": "toLowerCase()"
+    },
+    {
+      "question": "What is the result of \"abc\".compareTo(\"abd\")?",
+      "options": [
+        "Negative value",
+        "Positive value",
+        "Zero",
+        "Compile error"
+      ],
+      "answer": "Negative value"
+    },
+    {
+      "question": "Which method splits a string based on a delimiter?",
+      "options": [
+        "split()",
+        "divide()",
+        "separate()",
+        "cut()"
+      ],
+      "answer": "split()"
+    },
+    {
+      "question": "How do you get the length of a string variable `s`?",
+      "options": [
+        "s.length()",
+        "s.length",
+        "length(s)",
+        "len(s)"
+      ],
+      "answer": "s.length()"
+    },
+    {
+      "question": "Which of these is not a valid way to create a string?",
+      "options": [
+        "new String()",
+        "\"text\"",
+        "String s \u003d null;",
+        "String s \u003d \u0027\u0027;"
+      ],
+      "answer": "String s \u003d \u0027\u0027;"
+    },
+    {
+      "question": "What is the output of \"hello\".toUpperCase()?",
+      "options": [
+        "\"HELLO\"",
+        "\"hello\"",
+        "\"Hello\"",
+        "Error"
+      ],
+      "answer": "\"HELLO\""
+    }
+  ],
+  "Linked List": [
+    {
+      "question": "What is the time complexity to insert at the head of a linked list?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(1)"
+    },
+    {
+      "question": "Which pointers are used in a doubly linked list?",
+      "options": [
+        "prev and next",
+        "left and right",
+        "top and bottom",
+        "front and rear"
+      ],
+      "answer": "prev and next"
+    },
+    {
+      "question": "What is a circular linked list?",
+      "options": [
+        "Last node points to first",
+        "Head is null",
+        "Only one node",
+        "None"
+      ],
+      "answer": "Last node points to first"
+    },
+    {
+      "question": "Which data structure is used in undo functionality?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Linked List",
+        "Array"
+      ],
+      "answer": "Stack"
+    },
+    {
+      "question": "Which traversal is not possible in singly linked list?",
+      "options": [
+        "Backward",
+        "Forward",
+        "Search",
+        "Insert"
+      ],
+      "answer": "Backward"
+    },
+    {
+      "question": "What is the head of a linked list?",
+      "options": [
+        "First node",
+        "Last node",
+        "Null",
+        "Middle node"
+      ],
+      "answer": "First node"
+    },
+    {
+      "question": "Which operation takes O(n) in linked list?",
+      "options": [
+        "Search",
+        "Insert at head",
+        "Insert at tail (with tail pointer)",
+        "Traversal"
+      ],
+      "answer": "Search"
+    },
+    {
+      "question": "Which structure allows bidirectional traversal?",
+      "options": [
+        "Doubly linked list",
+        "Singly linked list",
+        "Array",
+        "Queue"
+      ],
+      "answer": "Doubly linked list"
+    },
+    {
+      "question": "Which pointer is null in the last node of singly linked list?",
+      "options": [
+        "next",
+        "prev",
+        "head",
+        "tail"
+      ],
+      "answer": "next"
+    },
+    {
+      "question": "Which of these is not an advantage of linked list?",
+      "options": [
+        "Random access",
+        "Dynamic size",
+        "Efficient insertion",
+        "No memory wastage"
+      ],
+      "answer": "Random access"
+    },
+    {
+      "question": "In a singly linked list, how do you access the previous node?",
+      "options": [
+        "Traverse from head",
+        "Direct pointer",
+        "Using tail pointer",
+        "Not possible"
+      ],
+      "answer": "Traverse from head"
+    },
+    {
+      "question": "What is the time complexity to delete a node in singly linked list if the pointer to node is given?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(1)"
+    },
+    {
+      "question": "Which of these is a disadvantage of linked lists?",
+      "options": [
+        "Random access",
+        "Dynamic size",
+        "Efficient insertions",
+        "Memory efficient"
+      ],
+      "answer": "Random access"
+    },
+    {
+      "question": "What is the key difference between singly and doubly linked lists?",
+      "options": [
+        "Number of pointers",
+        "Data type",
+        "Size",
+        "Traversal"
+      ],
+      "answer": "Number of pointers"
+    },
+    {
+      "question": "Which operation in linked list has O(n) complexity?",
+      "options": [
+        "Search",
+        "Insertion at head",
+        "Insertion at tail (with tail pointer)",
+        "Deletion of first node"
+      ],
+      "answer": "Search"
+    },
+    {
+      "question": "What is a sentinel node in linked lists?",
+      "options": [
+        "Dummy node",
+        "First node",
+        "Last node",
+        "Null node"
+      ],
+      "answer": "Dummy node"
+    },
+    {
+      "question": "Which type of linked list has the last node pointing to the first?",
+      "options": [
+        "Circular",
+        "Singly",
+        "Doubly",
+        "None"
+      ],
+      "answer": "Circular"
+    },
+    {
+      "question": "How is memory allocated in linked lists?",
+      "options": [
+        "Dynamically",
+        "Contiguously",
+        "Statically",
+        "At compile time"
+      ],
+      "answer": "Dynamically"
+    },
+    {
+      "question": "Which linked list traversal can be done backwards?",
+      "options": [
+        "Doubly linked list",
+        "Singly linked list",
+        "Circular singly",
+        "None"
+      ],
+      "answer": "Doubly linked list"
+    },
+    {
+      "question": "What is the space complexity to store n elements in a linked list?",
+      "options": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(n)"
+    },
+    {
+      "question": "Which is the first node of a linked list called?",
+      "options": [
+        "Head",
+        "Tail",
+        "Root",
+        "Parent"
+      ],
+      "answer": "Head"
+    },
+    {
+      "question": "Which pointer in a doubly linked list points to the previous node?",
+      "options": [
+        "prev",
+        "next",
+        "head",
+        "tail"
+      ],
+      "answer": "prev"
+    },
+    {
+      "question": "Which of the following is NOT a type of linked list?",
+      "options": [
+        "Singly",
+        "Doubly",
+        "Triply",
+        "Circular"
+      ],
+      "answer": "Triply"
+    },
+    {
+      "question": "What happens when you delete the head node in a linked list?",
+      "options": [
+        "Head moves to next node",
+        "List becomes empty",
+        "Last node becomes head",
+        "Error"
+      ],
+      "answer": "Head moves to next node"
+    },
+    {
+      "question": "In linked list insertion at tail without a tail pointer, the time complexity is:",
+      "options": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(n)"
+    }
+  ]
+}

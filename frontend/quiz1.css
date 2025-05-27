@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: url(bg.jpg);
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat;  
+    height: 100vh;               
+}
+
+.config-container {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px 50px;
+    width: 500px;
+    text-align: center;
+}
+
+.config-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.config-option {
+    margin-bottom: 25px;
+}
+
+.option-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+/* Button groups for both category and question options */
+.category-option,
+.question-option {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* Shared button styles */
+.category-option button,
+.question-option button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #333;
+    transition: 0.3s ease;
+}
+
+.category-option button:hover,
+.question-option button:hover {
+    background-color: #d5d5d5;
+}
+
+.category-option button.active,
+.question-option button.active {
+    background-color: #B197FC;
+    color: white;
+    font-weight: bold;
+}
+
+/* Start Quiz Button */
+.start-quiz-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #B197FC;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-quiz-btn:hover {
+    background-color: #B197FC;
+}

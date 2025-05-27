@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="logo.png" alt="" height="50px" />
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search for quizes.." />
+            <span class="search_icon">
+              <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            </span>
+        </div>
+
+        <div class="container">
+            <a href="#">Home</a>
+            <a href="#">Quizzes</a>
+            <a href="practice.html">Practice</a>
+            <a href="#">About</a>
+        </div>
+        <i class="fa-solid fa-bell fa-xl" style="color: #B197FC;"></i>
+        <i class="fa-solid fa-user fa-xl" style="color: #B197FC;"></i>
+        <div class="login"><a href="login.html"><button>Login</button></a></div>
+    </div>
+
+    <div class="first-sec">
+        <div class="left-part">
+            <div class="heading">
+                <h1>Code. Compete. Conquer.</h1>
+            </div>
+            <div class="para">
+                <p>
+                  Level up your Data Structures & Algorithms mastery through
+                  fast-paced, timed quizzes. Practice, compete, and become
+                  interview-ready with every click.
+                </p>
+            </div>
+        </div>
+        <div class="right-part">
+            <img src="image.png" alt="" />
+        </div>
+    </div>
+
+    <section class="topics-section">
+        <h2>DSA Topics</h2>
+        <p>Explore the core topics and boost your data structures foundation!</p>
+        
+        <div class="cards-wrapper">
+          
+          <a href="quiz1.html" class="topic-link" data-topic="Array">
+            <div class="topic-card" style="--card-color: #a78bfa;">
+              <div class="card-top">
+                <img src="array-icon.png" alt="Array Icon" class="icon" />
+              </div>
+              <div class="card-body">
+                <h3>Array</h3>
+                <p>
+                  Practice basic to advanced problems on arrays and master
+                  iteration and memory concepts.
+                </p>
+              </div>
+              <div class="card-footer">
+                <span>📈 450+ Questions</span>
+                <span>⏳ Avg. Time: 20 min</span>
+              </div>
+            </div>
+          </a>
+          
+          <a href="quiz1.html" class="topic-link" data-topic="Linked List">
+            <div class="topic-card" style="--card-color: #f472b6;">
+              <div class="card-top">
+                <img src="linkedlist-icon.png" alt="Linked List Icon" class="icon" />
+              </div>
+              <div class="card-body">
+                <h3>Linked List</h3>
+                <p>
+                  Cover single, double, and circular linked lists with practice
+                  sets and visual guides.
+                </p>
+              </div>
+              <div class="card-footer">
+                <span>📈 320+ Questions</span>
+                <span>⏳ Avg. Time: 30 min</span>
+              </div>
+            </div>
+          </a>
+          
+          <a href="quiz1.html" class="topic-link" data-topic="String">
+            <div class="topic-card" style="--card-color: #7bb4fa;">
+              <div class="card-top">
+                <img src="string-icon.png" alt="String Icon" class="icon" />
+              </div>
+              <div class="card-body">
+                <h3>String</h3>
+                <p>
+                  Strengthen string manipulation, pattern matching, and dynamic
+                  problems.
+                </p>
+              </div>
+              <div class="card-footer">
+                <span>📈 300+ Questions</span>
+                <span>⏳ Avg. Time: 25 min</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="quiz1.html" class="topic-link" data-topic="BST">
+            <div class="topic-card" style="--card-color: #f7ea5c;">
+              <div class="card-top">
+                <img src="bst-icon.png" alt="BST Icon" class="icon" />
+              </div>
+              <div class="card-body">
+                <h3>BST</h3>
+                <p>
+                  Master Binary Search Trees with insertion, deletion,
+                  traversal, and balance problems.
+                </p>
+              </div>
+              <div class="card-footer">
+                <span>📈 180+ Questions</span>
+                <span>⏳ Avg. Time: 40 min</span>
+              </div>
+            </div>
+          </a>
+
+         
+
+        </div>
+      </section>
+
+      <script>
+        document.querySelectorAll(".topic-link").forEach((link) => {
+          link.addEventListener("click", function (e) {
+            const topic = this.getAttribute("data-topic");
+            localStorage.setItem("quizCategory", topic);
+          });
+        });
+      </script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dash.css" />
+  <style>
+    #leaderboard-btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #007bff;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    #leaderboard-btn:hover {
+      background: #0056b3;
+    }
+    #logout-btn {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #dc3545;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    #logout-btn:hover {
+      background: #b02a37;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard-container">
+    <h1>Welcome, <span id="user-name"></span> 👋</h1>
+    <p>Your registered email: <span id="user-email"></span></p>
+
+    <h2>Your Activity</h2>
+    <ul>
+      <li>🏆 Quizzes Attempted: <span id="quizzes-attempted">0</span></li>
+      <li>🎯 Best Score: <span id="best-score">0%</span></li>
+      <li>📈 Average Score: <span id="avg-score">0%</span></li>
+    </ul>
+
+    <button id="leaderboard-btn">🏅 View Leaderboard</button>
+    <button id="logout-btn">Logout</button>
+  </div>
+
+  <script>
+    const user = JSON.parse(localStorage.getItem("currentUser"));
+    if (!user) {
+      alert("You are not logged in!");
+      window.location.href = "login.html";
+    } else {
+      document.getElementById("user-name").innerText = user.name;
+      document.getElementById("user-email").innerText = user.email;
+
+      const scores = user.scores || [];
+      const attempts = scores.length;
+
+      let bestScore = 0;
+      let totalPercentage = 0;
+
+      scores.forEach(scoreObj => {
+        const percent = (scoreObj.score / scoreObj.total) * 100;
+        if (percent > bestScore) bestScore = percent;
+        totalPercentage += percent;
+      });
+
+      const averageScore = attempts ? (totalPercentage / attempts).toFixed(2) : "0.00";
+      const bestScoreFormatted = bestScore.toFixed(2);
+
+      document.getElementById("quizzes-attempted").innerText = attempts;
+      document.getElementById("best-score").innerText = bestScoreFormatted + "%";
+      document.getElementById("avg-score").innerText = averageScore + "%";
+
+      // Store bestScore in currentUser
+      user.bestScore = parseFloat(bestScoreFormatted);
+      localStorage.setItem("currentUser", JSON.stringify(user));
+
+      // Update user in users array
+      let users = JSON.parse(localStorage.getItem("users")) || [];
+      const index = users.findIndex(u => u.email === user.email);
+      if (index !== -1) {
+        users[index].bestScore = user.bestScore;
+      } else {
+        users.push({ name: user.name, email: user.email, bestScore: user.bestScore });
+      }
+      localStorage.setItem("users", JSON.stringify(users));
+    }
+
+    document.getElementById("leaderboard-btn").addEventListener("click", () => {
+      window.location.href = "leaderboard.html";
+    });
+
+    document.getElementById("logout-btn").onclick = () => {
+      localStorage.removeItem("currentUser");
+      alert("Logged out successfully!");
+      window.location.href = "index.html";
+    };
+  </script>
+</body>
+</html>

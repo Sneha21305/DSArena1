@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz2.css">
+</head>
+<body>
+    <div class="quiz-instructions-container">
+        <h2 class="quiz-title">DSA Quiz</h2>
+        <p class="quiz-subtitle">
+            Welcome to the DSA Quiz. Test and enhance your Data Structures & Algorithms skills through interactive multiple-choice questions.
+        </p>
+        <hr>
+        <h2>Topic : Array </h2>
+        <div class="quiz-info">
+            <h3>Instructions:</h3>
+            <ol>
+                <li>This is a multiple-choice quiz with 4 options per question.</li>
+                <li>Only one option is correct for each question.</li>
+                <li>The number of questions is based on your selection (e.g., 5, 10, 15...)</li>
+                <li>You will have 30 seconds to answer each question.</li>
+            </ol>
+        </div>
+        <a href="quiz3.html"><button class="start-btn">Start Quiz</button></a>
+    </div>
+
+    <script>
+  // Get topic from localStorage
+  const topic = localStorage.getItem('quizCategory') || 'Array';
+
+  // Select the <h2> that displays the topic
+  const topicHeading = document.querySelector('.quiz-instructions-container h2:nth-of-type(2)');
+
+  // Update the topic text dynamically
+  topicHeading.textContent = `Topic : ${topic}`;
+</script>
+
+</body>
+</html>

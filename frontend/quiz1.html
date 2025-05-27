@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Configuration</title>
+    <link rel="stylesheet" href="quiz1.css">
+</head>
+<body>
+    <div class="config-container">
+        <h2 class="config-title">Quiz Configuration</h2>
+
+        <div class="config-option">
+            <h4 class="option-title">No. of Questions</h4>
+            <div class="question-option">
+               <button>5</button>
+                <button class="active">10</button>
+                <button>15</button>
+                <button>20</button>
+                <button>25</button>
+            </div>
+        </div>
+
+        <a href="quiz2.html"><button class="start-quiz-btn">Next</button></a>
+    </div>
+
+    <script>
+    // Handle question buttons
+    document.querySelectorAll('.question-option button').forEach(btn => {
+        btn.addEventListener('click', () => {
+            // Remove active class from all buttons
+            document.querySelectorAll('.question-option button').forEach(b => b.classList.remove('active'));
+            
+            // Add active class to clicked button
+            btn.classList.add('active');
+
+            // Store selected value in localStorage
+            const selectedValue = btn.textContent.trim();
+            localStorage.setItem('numQuestion', selectedValue);
+        });
+    });
+</script>
+
+</body>
+</html>

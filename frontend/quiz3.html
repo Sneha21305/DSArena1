@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+.quiz-container {
+  max-width: 600px;
+  width: 90%;
+  background: white;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#timer {
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#question-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.option-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 1rem;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.option-btn:hover {
+  background-color: #d0d0d0;
+}
+
+.correct {
+  background-color: #c8f7c5 !important;
+  color: #2d6a4f;
+}
+
+.wrong {
+  background-color: #f7c5c5 !important;
+  color: #6a2d2d;
+}
+
+#next-btn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#next-btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+#next-btn:hover:enabled {
+  background-color: #125ea5;
+}
+
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <h2 id="quiz-topic">Topic:</h2>
+    <p id="timer">Time Left: 30s</p>
+    <p id="question-text">Question will appear here</p>
+    <div id="options-container"></div>
+    <button id="next-btn" disabled>Next</button>
+  </div>
+
+  <script src="quiz3.js"></script>
+
+</body>
+</html>  

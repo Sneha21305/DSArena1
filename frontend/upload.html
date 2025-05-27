@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Upload Quiz PDF</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f8;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      color: #3a3057;
+    }
+    header {
+      background-color: #a78bfa; /* soft purple */
+      width: 100%;
+      padding: 15px 0;
+      text-align: center;
+      color: white;
+      font-weight: 700;
+      font-size: 1.6rem;
+      box-shadow: 0 4px 6px rgba(167, 139, 250, 0.4);
+    }
+    main {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 40px 20px;
+    }
+    form {
+      background: white;
+      padding: 30px 35px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(167, 139, 250, 0.25);
+      max-width: 420px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    label {
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #6a52f1;
+    }
+    input[type="file"] {
+      padding: 12px;
+      border: 2px solid #b197fc;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: border-color 0.3s ease;
+    }
+    input[type="file"]:focus,
+    input[type="file"]:hover {
+      border-color: #7bb4fa;
+      outline: none;
+    }
+    button {
+      background-color: #7bb4fa;
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 700;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 3px 10px rgba(123, 180, 250, 0.7);
+    }
+    button:hover {
+      background-color: #5a8de0;
+    }
+    .alert {
+      color: #7bb4fa;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>📤 Teacher Quiz PDF Upload</header>
+
+  <main>
+    <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+      <label for="pdfFile">Choose a PDF file:</label>
+      <input type="file" id="pdfFile" name="pdfFile" accept="application/pdf" required />
+
+      <button type="submit">Upload</button>
+
+      <div class="alert" id="uploadAlert"></div>
+    </form>
+  </main>
+
+  <script>
+    const form = document.getElementById('uploadForm');
+    const alertBox = document.getElementById('uploadAlert');
+
+    form.addEventListener('submit', function (e) {
+      alertBox.textContent = "Uploading... Please wait.";
+    });
+  </script>
+</body>
+</html>

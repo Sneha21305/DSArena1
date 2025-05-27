@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Practice Questions</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .topics-list {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 25px;
+      background: #f0f4ff;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .topics-list h2 {
+      color: #4f46e5;
+      margin-bottom: 20px;
+    }
+
+    .topic-btn {
+      display: block;
+      width: 100%;
+      margin-bottom: 12px;
+      padding: 12px 18px;
+      background-color: #7bb4fa;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-align: left;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .topic-btn:hover {
+      background-color: #5a8de0;
+    }
+  </style>
+</head>
+<body>
+  <div class="topics-list">
+    <h2>Select a Topic to Practice</h2>
+    <button class="topic-btn" onclick="location.href='practice-quiz.html?topic=array'">Array</button>
+    <button class="topic-btn" onclick="location.href='practice-quiz.html?topic=linkedlist'">Linked List</button>
+    <button class="topic-btn" onclick="location.href='practice-quiz.html?topic=stack'">Stack</button>
+    <button class="topic-btn" onclick="location.href='practice-quiz.html?topic=queue'">Queue</button>
+    
+    <!-- Add more topics as needed -->
+  </div>
+</body>
+</html>

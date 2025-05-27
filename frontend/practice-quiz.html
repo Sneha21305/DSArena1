@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Practice Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    #quiz-section {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 25px;
+      background: #f9f9fc;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #quiz-section h2 {
+      color: #6a54f0;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    #quiz-options {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    #quiz-options li {
+      margin-bottom: 12px;
+    }
+    #quiz-options button {
+      width: 100%;
+      background-color: #7bb4fa;
+      border: none;
+      padding: 12px 18px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      color: white;
+      box-shadow: 0 3px 8px rgba(123, 180, 250, 0.6);
+      transition: background-color 0.3s ease;
+      text-align: left;
+    }
+    #quiz-options button.selected {
+      background-color: #5a8de0;
+    }
+    .quiz-nav {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .quiz-nav button {
+      padding: 10px 24px;
+      font-weight: 600;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      background-color: #a78bfa;
+      color: white;
+      box-shadow: 0 3px 8px rgba(167, 139, 250, 0.6);
+      transition: background-color 0.3s ease;
+    }
+    .quiz-nav button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+      box-shadow: none;
+      color: #666;
+    }
+    .quiz-nav button:hover:not(:disabled) {
+      background-color: #7c64d9;
+    }
+    #result-section {
+      text-align: center;
+      padding: 20px;
+      background-color: #f0f0f7;
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+    #result-section h3 {
+      color: #4a3dc9;
+    }
+  </style>
+</head>
+<body>
+  <section id="quiz-section">
+    <h2 id="quiz-question">Loading question...</h2>
+    <ul id="quiz-options"></ul>
+    <div class="quiz-nav">
+      <button id="prev-btn" disabled>Previous</button>
+      <button id="next-btn" disabled>Next</button>
+      <button id="submit-btn" style="display: none;">Submit</button>
+    </div>
+    <div id="result-section" style="display: none;"></div>
+  </section>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const topic = urlParams.get('topic');
+
+    const questionEl = document.getElementById('quiz-question');
+    const optionsEl = document.getElementById('quiz-options');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const submitBtn = document.getElementById('submit-btn');
+    const resultSection = document.getElementById('result-section');
+
+    let quizData = [];
+    let currentQuestionIndex = 0;
+    let userAnswers = [];
+
+    function loadQuestion(index) {
+      const q = quizData[index];
+      questionEl.textContent = Q${index + 1}. ${q.question};
+      optionsEl.innerHTML = '';
+
+      q.options.forEach(option => {
+        const li = document.createElement('li');
+        const btn = document.createElement('button');
+        btn.textContent = option;
+        if (userAnswers[index] === option) {
+          btn.classList.add('selected');
+        }
+        btn.onclick = () => {
+          userAnswers[index] = option;
+          loadQuestion(index); // Reload to update selection UI
+        };
+        li.appendChild(btn);
+        optionsEl.appendChild(li);
+      });
+
+      prevBtn.disabled = index === 0;
+      nextBtn.disabled = index === quizData.length - 1;
+      submitBtn.style.display = index === quizData.length - 1 ? 'inline-block' : 'none';
+    }
+
+    prevBtn.addEventListener('click', () => {
+      if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        loadQuestion(currentQuestionIndex);
+      }
+    });
+
+    nextBtn.addEventListener('click', () => {
+      if (currentQuestionIndex < quizData.length - 1) {
+        currentQuestionIndex++;
+        loadQuestion(currentQuestionIndex);
+      }
+    });
+
+    submitBtn.addEventListener('click', () => {
+      let correct = 0;
+      quizData.forEach((q, i) => {
+        if (userAnswers[i] === q.answer) correct++;
+      });
+      const total = quizData.length;
+      const percentage = ((correct / total) * 100).toFixed(2);
+
+      resultSection.innerHTML = `
+        <h3>Quiz Completed!</h3>
+        <p><strong>Correct Answers:</strong> ${correct}</p>
+        <p><strong>Incorrect Answers:</strong> ${total - correct}</p>
+        <p><strong>Score:</strong> ${percentage}%</p>
+      `;
+      resultSection.style.display = 'block';
+      questionEl.style.display = 'none';
+      optionsEl.style.display = 'none';
+      prevBtn.style.display = 'none';
+      nextBtn.style.display = 'none';
+      submitBtn.style.display = 'none';
+    });
+
+    fetch('practice-questions.json')
+      .then(res => res.json())
+      .then(data => {
+        quizData = data.filter(q => q.topic.toLowerCase() === topic?.toLowerCase());
+        userAnswers = Array(quizData.length).fill(null);
+
+        if (!quizData.length) {
+          throw new Error('No questions found for this topic');
+        }
+
+        loadQuestion(currentQuestionIndex);
+        if (quizData.length > 1) nextBtn.disabled = false;
+      })
+      .catch(err => {
+        questionEl.textContent = err.message;
+        optionsEl.innerHTML = '';
+        prevBtn.disabled = true;
+        nextBtn.disabled = true;
+      });
+  </script>
+</body>
+</html>

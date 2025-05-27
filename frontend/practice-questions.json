@@ -1,0 +1,422 @@
+[
+  {
+    "topic": "array",
+    "question": "What is the time complexity of accessing an element in an array?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": "O(1)"
+  },
+  {
+    "topic": "array",
+    "question": "Which of the following is NOT a valid operation on arrays?",
+    "options": ["Insertion", "Deletion", "Traversal", "Dynamic resizing without copying"],
+    "answer": "Dynamic resizing without copying"
+  },
+  {
+    "topic": "array",
+    "question": "What is the time complexity of searching an element in an unsorted array?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": "O(n)"
+  },
+  {
+    "topic": "array",
+    "question": "Which data structure uses contiguous memory locations?",
+    "options": ["Linked list", "Array", "Queue", "Stack"],
+    "answer": "Array"
+  },
+  {
+    "topic": "array",
+    "question": "What is the worst-case time complexity of inserting an element at the beginning of an array?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": "O(n)"
+  },
+  {
+    "topic": "array",
+    "question": "How is the size of a static array defined?",
+    "options": ["At compile time", "At runtime", "Dynamically", "Cannot be defined"],
+    "answer": "At compile time"
+  },
+  {
+    "topic": "array",
+    "question": "Which algorithm is best for sorting an array that is nearly sorted?",
+    "options": ["Bubble sort", "Insertion sort", "Quick sort", "Heap sort"],
+    "answer": "Insertion sort"
+  },
+  {
+    "topic": "array",
+    "question": "What is the space complexity of an array of size n?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": "O(n)"
+  },
+  {
+    "topic": "array",
+    "question": "Which of these is an advantage of arrays?",
+    "options": ["Dynamic size", "Easy insertion at beginning", "Random access", "No memory wastage"],
+    "answer": "Random access"
+  },
+  {
+    "topic": "array",
+    "question": "Which operation is costly for arrays?",
+    "options": ["Access", "Traversal", "Insertion at end", "Insertion at beginning"],
+    "answer": "Insertion at beginning"
+  },
+  {
+    "topic": "array",
+    "question": "In an array of size n, the index of the last element is?",
+    "options": ["n", "n-1", "0", "1"],
+    "answer": "n-1"
+  },
+  {
+    "topic": "array",
+    "question": "Which of these can be used to implement a stack?",
+    "options": ["Array", "Linked list", "Both", "None"],
+    "answer": "Both"
+  },
+  {
+    "topic": "array",
+    "question": "Which of the following is a linear data structure?",
+    "options": ["Array", "Tree", "Graph", "Heap"],
+    "answer": "Array"
+  },
+  {
+    "topic": "array",
+    "question": "How is the element at index i accessed in an array?",
+    "options": ["array[i]", "array(i)", "array{i}", "array->i"],
+    "answer": "array[i]"
+  },
+  {
+    "topic": "array",
+    "question": "In a multidimensional array, elements are stored in?",
+    "options": ["Row-major order", "Column-major order", "Both", "None"],
+    "answer": "Both"
+  },
+  {
+    "topic": "array",
+    "question": "What will happen if you try to access an index out of array bounds?",
+    "options": ["Compile-time error", "Run-time error", "Works fine", "Depends on compiler"],
+    "answer": "Run-time error"
+  },
+  {
+    "topic": "array",
+    "question": "Which of the following operations is performed fastest on arrays?",
+    "options": ["Search", "Insertion", "Deletion", "Access"],
+    "answer": "Access"
+  },
+  {
+    "topic": "array",
+    "question": "If array elements are stored in contiguous memory, accessing the ith element takes how much time?",
+    "options": ["O(1)", "O(i)", "O(n)", "O(log n)"],
+    "answer": "O(1)"
+  },
+  {
+    "topic": "array",
+    "question": "What is the initial index of an array in most programming languages?",
+    "options": ["0", "1", "-1", "Depends on language"],
+    "answer": "0"
+  },
+  {
+    "topic": "array",
+    "question": "Which of the following is a disadvantage of arrays?",
+    "options": ["Fixed size", "Random access", "Easy traversal", "Simple structure"],
+    "answer": "Fixed size"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "Which of these is NOT a type of linked list?",
+    "options": ["Singly linked list", "Doubly linked list", "Triply linked list", "Circular linked list"],
+    "answer": "Triply linked list"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "What is the time complexity to insert an element at the beginning of a singly linked list?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": "O(1)"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "In a doubly linked list, how many pointers does each node have?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "Which of the following linked lists allow traversal in both directions?",
+    "options": ["Singly linked list", "Doubly linked list", "Circular linked list", "None"],
+    "answer": "Doubly linked list"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "What is the time complexity of searching for an element in a linked list?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": "O(n)"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "Which of the following is an advantage of linked lists over arrays?",
+    "options": ["Dynamic size", "Random access", "Fixed size", "Less memory"],
+    "answer": "Dynamic size"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "What happens when you delete a node in a linked list?",
+    "options": ["Memory is freed", "Node is marked null", "Node data is cleared", "Nothing happens"],
+    "answer": "Memory is freed"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "What is the pointer in the last node of a singly linked list?",
+    "options": ["Null", "Address of first node", "Address of previous node", "Undefined"],
+    "answer": "Null"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "What is a circular linked list?",
+    "options": ["Last node points to first", "Last node points to null", "First node points to null", "None"],
+    "answer": "Last node points to first"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "Which operation is slow in linked lists compared to arrays?",
+    "options": ["Access", "Insertion", "Deletion", "Traversal"],
+    "answer": "Access"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "How do you find the length of a linked list?",
+    "options": ["Traverse and count", "Use a size variable", "Both", "None"],
+    "answer": "Traverse and count"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "Which of the following is a non-linear data structure?",
+    "options": ["Linked list", "Array", "Tree", "Queue"],
+    "answer": "Tree"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "What is a sentinel node in linked lists?",
+    "options": ["Dummy node to simplify operations", "Node with max value", "Last node", "First node"],
+    "answer": "Dummy node to simplify operations"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "In a singly linked list, to insert at the end, what is needed?",
+    "options": ["Traverse to end", "Direct pointer", "Head node", "Tail node"],
+    "answer": "Traverse to end"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "Which operation can be optimized in doubly linked lists compared to singly linked lists?",
+    "options": ["Backward traversal", "Forward traversal", "Insertion at head", "Deletion at head"],
+    "answer": "Backward traversal"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "Which data structure is best for implementing undo functionality?",
+    "options": ["Stack", "Queue", "Array", "Linked list"],
+    "answer": "Stack"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "What is the time complexity for deleting a node when given a pointer to it in a singly linked list?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": "O(1)"
+  },
+  {
+    "topic": "linkedlist",
+    "question": "Which of the following can be used to implement a queue?",
+    "options": ["Array", "Linked list", "Both", "None"],
+    "answer": "Both"
+  },
+  {
+    "topic": "queue",
+    "question": "What does FIFO stand for in queues?",
+    "options": ["First In First Out", "Fast Input Fast Output", "First Input First Output", "First In Fast Out"],
+    "answer": "First In First Out"
+  },
+  {
+    "topic": "queue",
+    "question": "Which operation removes an element from the front of the queue?",
+    "options": ["Enqueue", "Dequeue", "Push", "Pop"],
+    "answer": "Dequeue"
+  },
+  {
+    "topic": "queue",
+    "question": "What is the time complexity of enqueuing an element in a queue implemented with linked list?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": "O(1)"
+  },
+  {
+    "topic": "queue",
+    "question": "Which of the following is NOT a type of queue?",
+    "options": ["Priority queue", "Circular queue", "Dequeue", "Stack queue"],
+    "answer": "Stack queue"
+  },
+  {
+    "topic": "queue",
+    "question": "Which data structure can efficiently implement a queue?",
+    "options": ["Array", "Linked list", "Both", "None"],
+    "answer": "Both"
+  },
+  {
+    "topic": "queue",
+    "question": "In a circular queue, the rear pointer points to?",
+    "options": ["The last element", "The first element", "Next free space", "Null"],
+    "answer": "Next free space"
+  },
+  {
+    "topic": "queue",
+    "question": "What is the maximum number of elements in a queue of size n?",
+    "options": ["n", "n-1", "n+1", "Depends on implementation"],
+    "answer": "n"
+  },
+  {
+    "topic": "queue",
+    "question": "Which of these operations is performed in constant time in a queue?",
+    "options": ["Enqueue", "Dequeue", "Both", "None"],
+    "answer": "Both"
+  },
+  {
+    "topic": "queue",
+    "question": "What happens if you dequeue an element from an empty queue?",
+    "options": ["Underflow", "Overflow", "Error", "Nothing"],
+    "answer": "Underflow"
+  },
+  {
+    "topic": "queue",
+    "question": "Which data structure is used in breadth-first search (BFS)?",
+    "options": ["Stack", "Queue", "Array", "Linked list"],
+    "answer": "Queue"
+  },
+  {
+    "topic": "queue",
+    "question": "How can you implement a queue using stacks?",
+    "options": ["Using two stacks", "Using one stack", "Using linked list", "Impossible"],
+    "answer": "Using two stacks"
+  },
+  {
+    "topic": "queue",
+    "question": "Which of the following is a real-world application of queue?",
+    "options": ["Printer queue", "Undo operation", "Function call stack", "Browser history"],
+    "answer": "Printer queue"
+  },
+  {
+    "topic": "queue",
+    "question": "What is the main disadvantage of a simple queue implemented with an array?",
+    "options": ["Fixed size", "Overhead of pointers", "Slow access", "Complex implementation"],
+    "answer": "Fixed size"
+  },
+  {
+    "topic": "queue",
+    "question": "Which of the following is true about a deque?",
+    "options": ["Insertion and deletion at both ends", "Insertion only at front", "Deletion only at rear", "Fixed size"],
+    "answer": "Insertion and deletion at both ends"
+  },
+  {
+    "topic": "queue",
+    "question": "Which operation is NOT supported by a queue?",
+    "options": ["Enqueue", "Dequeue", "Push", "Peek"],
+    "answer": "Push"
+  },
+  {
+    "topic": "stack",
+    "question": "What does LIFO stand for in stacks?",
+    "options": ["Last In First Out", "Last Input First Output", "Last In Fast Out", "Longest In First Out"],
+    "answer": "Last In First Out"
+  },
+  {
+    "topic": "stack",
+    "question": "Which operation adds an element to the top of the stack?",
+    "options": ["Push", "Pop", "Enqueue", "Dequeue"],
+    "answer": "Push"
+  },
+  {
+    "topic": "stack",
+    "question": "Which operation removes the top element from the stack?",
+    "options": ["Push", "Pop", "Enqueue", "Dequeue"],
+    "answer": "Pop"
+  },
+  {
+    "topic": "stack",
+    "question": "What is the time complexity of push and pop operations in a stack?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": "O(1)"
+  },
+  {
+    "topic": "stack",
+    "question": "Which of the following can be used to implement a stack?",
+    "options": ["Array", "Linked list", "Both", "None"],
+    "answer": "Both"
+  },
+  {
+    "topic": "stack",
+    "question": "Which data structure is used for function call management in programming languages?",
+    "options": ["Stack", "Queue", "Array", "Linked list"],
+    "answer": "Stack"
+  },
+  {
+    "topic": "stack",
+    "question": "What is the term for trying to pop an element from an empty stack?",
+    "options": ["Underflow", "Overflow", "Error", "Null"],
+    "answer": "Underflow"
+  },
+  {
+    "topic": "stack",
+    "question": "Which of the following is NOT an application of stacks?",
+    "options": ["Expression evaluation", "Backtracking", "BFS traversal", "Function call recursion"],
+    "answer": "BFS traversal"
+  },
+  {
+    "topic": "stack",
+    "question": "Which operation allows you to look at the top element without removing it?",
+    "options": ["Peek", "Pop", "Push", "Enqueue"],
+    "answer": "Peek"
+  },
+  {
+    "topic": "stack",
+    "question": "Which of these is NOT a type of stack?",
+    "options": ["Array-based stack", "Linked list stack", "Queue-based stack", "Circular stack"],
+    "answer": "Queue-based stack"
+  },
+  {
+    "topic": "stack",
+    "question": "What is the space complexity of a stack with n elements?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": "O(n)"
+  },
+  {
+    "topic": "stack",
+    "question": "Which is the correct order of stack operations?",
+    "options": ["Push, Pop", "Pop, Push", "Enqueue, Dequeue", "Insert, Delete"],
+    "answer": "Push, Pop"
+  },
+  {
+    "topic": "stack",
+    "question": "What happens when you push an element onto a full stack?",
+    "options": ["Overflow", "Underflow", "Error", "Nothing"],
+    "answer": "Overflow"
+  },
+  {
+    "topic": "stack",
+    "question": "Which of the following algorithms can be implemented using a stack?",
+    "options": ["DFS", "BFS", "Binary Search", "Merge Sort"],
+    "answer": "DFS"
+  },
+  {
+    "topic": "stack",
+    "question": "Which of the following is used to reverse a string?",
+    "options": ["Stack", "Queue", "Linked list", "Array"],
+    "answer": "Stack"
+  },
+  {
+    "topic": "stack",
+    "question": "Which of these is NOT a characteristic of stacks?",
+    "options": ["LIFO", "Dynamic size", "Random access", "Linear"],
+    "answer": "Random access"
+  },
+  {
+    "topic": "stack",
+    "question": "What data structure is used to check for balanced parentheses in an expression?",
+    "options": ["Stack", "Queue", "Array", "Linked list"],
+    "answer": "Stack"
+  }
+]
